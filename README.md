@@ -64,7 +64,9 @@ Diagram
 
 Base Landing Page https://localhost:[port]
 
-<img align="left" src="https://github.com/ernestocasanova/animals-app/blob/master/aws/list_all_dogs.png" height="380" />
+AWS Cloud Running https://d1yke81w95s8iq.cloudfront.net (If is still running)
 
-<img align="left" src="https://github.com/ernestocasanova/animals-app/blob/master/aws/dogs_add_modal.png" height="580" />
+<img align="left" src="https://github.com/ernestocasanova/animals-app/blob/master/aws/list_all_dogs.png" height="330" />
+
+<img align="left" src="https://github.com/ernestocasanova/animals-app/blob/master/aws/dogs_add_modal.png" height="480" />
 
