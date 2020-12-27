@@ -44,3 +44,26 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Project Info
+
+•	* Pyhton 3.6 </br>
+•	* React Typescript </br>
+•	* AWS Lambda functions </br>
+•	* AWS S3 Bucket to load media files </br>
+•	* AWS DynamoDB to storage data </br>
+•	* AWS API Gateway  </br>
+
+Diagram
+
+<img align="left" src="https://github.com/ernestocasanova/animamls-app/aws/master/aws_diagram.png" height="580" />
+
+
+# Result
+
+Base Landing Page https://localhost:[port]
+
+<img align="left" src="https://github.com/ernestocasanova/animamls-app/aws/master/list_all_dogs.png" height="580" />
+
+<img align="left" src="https://github.com/ernestocasanova/animamls-app/aws/master/dogs_add_modal.png" height="580" />
+
