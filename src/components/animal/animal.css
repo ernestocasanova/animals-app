@@ -1,0 +1,87 @@
+.animal-div {
+  position: relative;
+  min-width: auto;
+  height: 54px;
+  border-radius: 25px;
+  margin: 10px 0;
+  border: 2px solid #f0f0f0;
+  background-color: white;
+}
+.search-div {
+  position: relative;
+  min-width: auto;
+}
+.search-input {
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px 0;
+  padding-left: 15px;
+  border: 2px solid #f0f0f0;
+  background-color: white;
+}
+.animal-pic {
+  height: 46px;
+  width: 46px;
+  float: left;
+  margin: 2px 5px 0 2px;
+  background: white;
+  border-radius: 50%;
+}
+
+.animal-name {
+  font-size: 18px;
+  line-height: 50px;
+  text-align: left;
+  color: #404040;
+}
+
+.animal-remove {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  right: 10px;
+  text-align: center;
+  font-size: 15px;
+  background-color: #e11414;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.animal-search {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  right: 10px;
+  text-align: center;
+  font-size: 27px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.close-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap
+}
+
+.topright {
+  position: absolute;
+  right: 0;
+  top: 0
+}

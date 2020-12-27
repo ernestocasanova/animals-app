@@ -1,0 +1,124 @@
+.slogan {
+  max-width: 320px;
+  margin: 10px auto 0;
+}
+.card {
+  background-color: #fff;
+  padding: 20px 30px;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  position: relative;
+  min-height: 100px;
+}
+.animal-modal-container,
+.animal-modal-background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.animal-modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+.animal-modal-background {
+  background-color: #000;
+  opacity: 0.5;
+}
+.animal {
+  background-color: #fff;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  z-index: 300;
+  padding: 20px 30px 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+.animal h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item {
+  width: 520px;
+  min-height: 320px;
+  max-height: 400px;
+  float: center;
+}
+.button-container > button {
+  font-size: 18px;
+  padding: 8px 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+  border-width: 0;
+  outline: none;
+  background-color: #1f8dcc;
+  color: #fff;
+} 
+.ReactModal__Overlay--after-open, .react-confirm-alert-overlay {
+  background-color: rgba(0,0,0,0.75) !important;
+}
+.form-title {
+  font-size: 20px;
+  text-align: center;
+}
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+input {
+  display: block;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: none;
+  border: 1px solid #a7a3a2;
+  width: 100%;
+}
+input:focus {
+  outline-color: #1f8dcc;
+  outline-width: 3px;
+}
+.loader-container,
+.loader-container:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader-container:before {
+  content: '';
+  background-color: #a7a3a2;
+  opacity: 0.3;
+}
+.loader {
+  animation: loader-spin infinite 1s linear;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 5px solid #bcc8dc;
+  border-top-color: #1f8dcc;
+}
+
+@keyframes loader-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
