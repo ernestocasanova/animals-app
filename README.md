@@ -57,7 +57,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 Diagram
 
-<img align="left" src="https://github.com/ernestocasanova/animals-app/blob/master/aws/aws_diagram.png" height="580" />
+<img align="left" src="https://github.com/ernestocasanova/animals-app/blob/master/aws/aws_diagram.png" height="480" />
 
 
 # Result
