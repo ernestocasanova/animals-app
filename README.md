@@ -64,7 +64,7 @@ Diagram
 
 Base Landing Page https://localhost:[port]
 
-<img align="left" src="https://github.com/ernestocasanova/animals-app/blob/master/aws/list_all_dogs.png" height="580" />
+<img align="left" src="https://github.com/ernestocasanova/animals-app/blob/master/aws/list_all_dogs.png" height="380" />
 
 <img align="left" src="https://github.com/ernestocasanova/animals-app/blob/master/aws/dogs_add_modal.png" height="580" />
 
